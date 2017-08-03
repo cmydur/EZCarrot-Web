@@ -44,7 +44,7 @@ p {
   margin-bottom: 20px; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 50px; }
 
@@ -211,8 +211,12 @@ section.download {
     section.download h2 {
       font-size: 70px; } }
 
+section.features li {
+  padding-bottom: 10px;
+  font-size: larger; }
+
 section.features .section-heading {
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
   section.features .section-heading h2 {
     margin-top: 0; }
   section.features .section-heading p {
