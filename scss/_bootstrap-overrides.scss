@@ -1,9 +1,9 @@
 // Bootstrap overrides for this template
 .bg-primary {
-     background-image: url("/img/service-provider-bg.jpg");
-    // background: $theme-primary;
-    // background: -webkit-linear-gradient($theme-primary, darken($theme-primary, 5%));
-    // background: linear-gradient($theme-primary, darken($theme-primary, 5%));
+    // background-image: url("/img/service-provider-bg.jpg");
+     background: $theme-primary;
+     background: -webkit-linear-gradient($theme-primary, darken($theme-primary, 5%));
+     background: linear-gradient($theme-primary, darken($theme-primary, 5%));
 }
 
 .text-primary {
@@ -29,6 +29,21 @@
     }
 }
 
+.btn-outline-dark {
+    color: white;
+    background-color: $theme-primary;
+    border: 1px solid;
+    border-color: $theme-primary;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        color: $theme-primary;
+        border-color: $theme-primary;
+        background-color: white;
+    }
+}
+
 .btn {
     border-radius: 300px;
     @include alt-font;
@@ -39,7 +54,7 @@
     padding: 15px 45px;
 }
 
-.mikeDive{border:1px solid #ddd;background-color:#f6f6f6;padding:47px 0px 65px;}
+.mikeDiv{border:1px solid #ddd;background-color:#f6f6f6;padding:47px 0px 65px;color: #f0821f; margin: 5px;text-align: center}
 .mikeHeader img{width:140px;} 
 .mikeBody mh h1{font-size:43px;} 
 .mikeBody h1,h3{color:#f0821f;font-weight:bold;}
@@ -47,3 +62,4 @@
 
 .mikeBody p{padding:0px 20px;font-family: 'robotoregular';padding-bottom:20px;margin-bottom:0px;}
 .mikeTitle{margin-bottom: 4%;}
+.pattern-row{background: url("../img/square_pattern1.png") no-repeat;width: 100%;height: 100%;background-size: cover;margin:0px;}
