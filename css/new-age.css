@@ -146,7 +146,7 @@ header.masthead {
   margin: 0px; }
   header.masthead .header-content {
     position: relative;
-    padding: 150px 0 50px;
+    padding: 50px 0 50px;
     text-align: center; }
     header.masthead .header-content .header-content-inner {
       position: relative;
@@ -365,8 +365,8 @@ footer {
 
 .bg-primary {
   background: #f79634;
-  background: -webkit-linear-gradient(#f79634, #f6891b);
-  background: linear-gradient(#f79634, #f6891b); }
+  background: -webkit-linear-gradient(#f6891b, #f79634);
+  background: linear-gradient(#f6891b, #f79634); }
 
 .text-primary {
   color: #f79634; }
@@ -407,7 +407,7 @@ footer {
 .mikeDiv {
   border: 1px solid #ddd;
   background-color: #f6f6f6;
-  padding: 47px 0px 65px;
+  padding: 10px 0px 10px;
   color: #f0821f;
   margin: 5px;
   text-align: center; }
