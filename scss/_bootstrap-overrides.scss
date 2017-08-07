@@ -54,7 +54,7 @@
     padding: 15px 45px;
 }
 
-.mikeDiv{border:1px solid #ddd;background-color:#f6f6f6;padding:10px 0px 10px;color: #f0821f; margin: 5px;text-align: center}
+.mikeDiv{border:1px solid #ddd;background-color:#f6f6f6;padding:10px;color: #f0821f; margin: 5px;text-align: center}
 .mikeHeader img{width:140px;} 
 .mikeBody mh h1{font-size:43px;} 
 .mikeBody h1,h3{color:#f0821f;font-weight:bold;}
@@ -63,3 +63,7 @@
 .mikeBody p{padding:0px 20px;font-family: 'robotoregular';padding-bottom:20px;margin-bottom:0px;}
 .mikeTitle{margin-bottom: 4%;}
 .pattern-row{background: url("../img/square_pattern1.png") no-repeat;width: 100%;height: 100%;background-size: cover;margin:0px;}
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}

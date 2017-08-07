@@ -33,10 +33,10 @@ section.business {
             color: white;
         }
         i {
-             color: white;
+            color: white;
             font-size: 80px;
-            background: -webkit-linear-gradient(to left, $theme-primary, darken($theme-primary, 5%));
-            background: linear-gradient(to left, $theme-primary, darken($theme-primary, 5%));
+             background: -webkit-linear-gradient(to left, white, white);
+             background: linear-gradient(to left, white,white);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }

@@ -11,16 +11,16 @@ header.masthead {
      background-size: cover;margin:0px;
     .header-content {
         position: relative;
-        padding: 50px 0 50px;
+        padding: 100px 0 50px;
         text-align: center;
         .header-content-inner {
             position: relative;
             max-width: 500px;
             margin: 0 auto;
             h1 {
-                font-size: 30px;
+                font-size: 50px;
                 margin-top: 0;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
             .list-badges {
                 margin-bottom: 25px;
@@ -32,7 +32,8 @@ header.masthead {
         }
     }
     .device-container {
-        max-width: 300px;
+        // max-width: 300px;
+        width: 100%;
         margin: 0 auto 100px;
         .screen img {
             border-radius: 3px;
@@ -57,7 +58,8 @@ header.masthead {
             }
         }
         .device-container {
-            max-width: none;
+            // max-width: none;
+            width: 100%;
             max-height: calc(100vh - 100px);
             margin: 100px auto 0;
         }
